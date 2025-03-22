@@ -72,5 +72,27 @@ Conditional execution
 
 
 
+## Setup Guide
+
+### Create a new Vite project with React
+`npm create vite@latest 8bit-cpu-simulator -- --template react`
+
+### Navigate to the project directory
+`cd 8bit-cpu-simulator`
+
+### Install dependencies
+`npm install`
+
+### Install Tailwind CSS and its dependencies
+`npm install -D tailwindcss@3 postcss autoprefixer`
+
+### Initialize Tailwind CSS
+`npx tailwindcss init -p`
+
+### Install additional utilities
+`npm install classnames`
+
+
+
 ## Snapshots
 ![CPU_Sim](https://github.com/user-attachments/assets/724fcf14-cbac-4153-be05-0e6b083a71ef)
