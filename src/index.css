@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-cpu-dark text-white;
+}
+
+@layer components {
+  .cpu-register {
+    @apply border border-cpu-light bg-cpu-medium p-2 rounded-md text-center w-full;
+  }
+  
+  .cpu-btn {
+    @apply px-4 py-2 rounded-md bg-cpu-light hover:bg-cpu-accent transition-colors;
+  }
+  
+  .cpu-memory-cell {
+    @apply border border-cpu-light bg-cpu-medium p-2 rounded-md text-center w-12 h-12 flex items-center justify-center transition-all;
+  }
+  
+  .cpu-memory-cell.active {
+    @apply bg-cpu-accent;
+  }
+  
+  .cpu-bus {
+    @apply bg-cpu-accent h-2 transition-all;
+  }
+}
